@@ -1,0 +1,173 @@
+{% extends "twata/_skeleton2_template.html" %}
+{% block title %}Lamar's Web Apps - Twata{% endblock %}
+{% block content %}
+<div class="info-pulse"></div>
+<div class="container">
+    <p class="lead">Twitter data collection - New topic every week</p>
+    <p style="text-align:left; position:relative; bottom:10px; left:5px">
+        <span style="font-size:15pt;"><strong>Graph started collecting tweets: </strong>{{date}}</span>
+    </p>
+
+    <div class="row justify-content-between">
+        <div class="col-xs-11 col-md-5">
+            <center><h3>Positive Tweet Count</h3></center>
+            <div class="graph" id="pos_graph">
+
+                <script>
+                    var dataArray = {{pos_latest_scores_ordered}}; var graphHeight = {{pos_graph_height}}; var num_cats = {{x_cats | count}};
+                    var svg = d3.select("#pos_graph").append("svg")
+                                  .attr("height","400px")
+                                  .attr("width","100%")
+                                  .attr("z-index","70")
+                                  .attr("position", "relative")
+                                  .attr("top", "0")
+                                  .attr("left", "0");
+
+                        svg.selectAll("rect")
+                            .data(dataArray)
+                            .enter().append("rect")
+                                  .attr("class", "bar")
+                                  .attr("height", function(d, i) {return (400*d/graphHeight)})
+                                  .attr("width", 100/num_cats - 10 + "%")
+                                  .attr("z-index","80")
+                                  .attr("x", function(d, i) {return 100/num_cats * i + 5 + "%"})
+                                  .attr("y", function(d, i) {return 400 - (400*d/graphHeight)});
+
+                        svg.selectAll("text")
+                            .data(dataArray)
+                            .enter().append("text")
+                            .text(function(d) {return d})
+                                   .attr("class", "text")
+                                   .attr("z-index","90")
+                                   .attr("x", function(d, i) {return 100/num_cats * i + 7 + "%"})
+                                   .attr("y", function(d, i) {return 420 - (400*d/graphHeight)});
+                </script>
+                <div class='xLabelArea'>
+                    {% set num_cats = x_cats | count %}
+                    {% set cat_num = 0 %}
+                    {% for category in x_cats %}
+                        <div class='xLabel' style='left:{{100/num_cats * cat_num}}%; width:{{100/num_cats}}%;'><center><strong>{{category}}</strong></center></div>
+                        {% set cat_num = cat_num + 1 %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-11 col-md-5">
+            <center><h3>Negative Tweet Count</h3></center>
+            <div class="graph" id="neg_graph">
+                <script>
+                    var dataArray = {{neg_latest_scores_ordered}}; var graphHeight = {{neg_graph_height}}; var num_cats = {{x_cats | count}};
+                    var svg = d3.select("#neg_graph").append("svg")
+                                  .attr("height","400px")
+                                  .attr("width","100%")
+                                  .attr("z-index","70")
+                                  .attr("position", "fixed")
+                                  .attr("top", "0")
+                                  .attr("left", "0");
+
+                        svg.selectAll("rect")
+                            .data(dataArray)
+                            .enter().append("rect")
+                                  .attr("class", "bar")
+                                  .attr("height", function(d, i) {return (400*d/graphHeight)})
+                                  .attr("width", 100/num_cats - 10 + "%")
+                                  .attr("z-index","80")
+                                  .attr("x", function(d, i) {return 100/num_cats * i + 5 + "%"})
+                                  .attr("y", function(d, i) {return 400 - (400*d/graphHeight)});
+
+                        svg.selectAll("text")
+                            .data(dataArray)
+                            .enter().append("text")
+                            .text(function(d) {return d})
+                                   .attr("class", "text")
+                                   .attr("z-index","90")
+                                   .attr("x", function(d, i) {return 100/num_cats * i + 7 + "%"})
+                                   .attr("y", function(d, i) {return 420 - (400*d/graphHeight)});
+                </script>
+                <div class='xLabelArea'>
+                    {% set num_cats = x_cats | count %}
+                    {% set cat_num = 0 %}
+                    {% for category in x_cats %}
+                        <div class='xLabel' style='left:{{100/num_cats * cat_num}}%; width:{{100/num_cats}}%;'><center><strong>{{category}}</strong></center></div>
+                        {% set cat_num = cat_num + 1 %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-xs-11 col-md-11">
+            <center><h3>Timeline Tweet Count</h3></center>
+            <div class="graph" id="line_graph"><script>
+                    var negDataArray = {{neg_latest_scores_ordered}}; var graphHeight = {{neg_graph_height}}>{{pos_graph_height}}?{{neg_graph_height}}:{{pos_graph_height}};
+                    var posDataArray = {{pos_latest_scores_ordered}}; var num_cats = {{x_cats | count}};
+                    var svg = d3.select("#line_graph").append("svg")
+                                  .attr("height","400px")
+                                  .attr("width","100%")
+                                  .attr("z-index","70")
+                                  .attr("position", "fixed")
+                                  .attr("top", "0")
+                                  .attr("left", "0");
+
+                        svg.selectAll('negLine')
+                            .data(negDataArray)
+                            .enter().append("line")
+                                .attr("class", "line")
+                                .attr("stroke","#ffd5d6")
+                                .attr("z-index","70")
+                                .attr("x1", function(d, i) { var prevData = i>0?i-1:0; return i>0?100/num_cats * prevData + 6.5 + "%": 0;})
+                                .attr("y1", function(d, i) { var prevData = i>0?negDataArray[i-1]:0; return 403 - (400*prevData/graphHeight)})
+                                .attr("x2", function(d, i) { return 100/num_cats * i + 6.5 + "%"})
+                                .attr("y2", function(d, i) { return 403 - (400*d/graphHeight)});
+
+                        svg.selectAll('posLine')
+                            .data(posDataArray)
+                            .enter().append("line")
+                                .attr("class", "line")
+                                .attr("stroke","#9fe7f5")
+                                .attr("z-index","70")
+                                .attr("x1", function(d, i) { var prevData = i>0?i-1:0; return i>0?100/num_cats * prevData + 6.5 + "%": 0;})
+                                .attr("y1", function(d, i) { var prevData = i>0?posDataArray[i-1]:0; return 403 - (400*prevData/graphHeight)})
+                                .attr("x2", function(d, i) { return 100/num_cats * i + 6.5 + "%"})
+                                .attr("y2", function(d, i) { return 403 - (400*d/graphHeight)});
+
+                        svg.selectAll("negCircle")
+                            .data(negDataArray)
+                            .enter().append("circle")
+                                  .attr("class", "dot")
+                                  .attr("fill", "red")
+                                  .attr("r", "10")
+                                  .attr("z-index","80")
+                                  .attr("cx", function(d, i) {return 100/num_cats * i + 7 + "%"})
+                                  .attr("cy", function(d, i) {return 400 - (400*d/graphHeight)});
+
+                        svg.selectAll("posCircle")
+                            .data(posDataArray)
+                            .enter().append("circle")
+                                  .attr("class", "dot")
+                                  .attr("fill", "blue")
+                                  .attr("r", "10")
+                                  .attr("z-index","80")
+                                  .attr("cx", function(d, i) {return 100/num_cats * i + 7 + "%"})
+                                  .attr("cy", function(d, i) {return 400 - (400*d/graphHeight)});
+
+                </script>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-xs-12 col-md-8 info-panel" id="app-info">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <br><br>
+            <p></p>
+        </div>
+    </div>
+    <script>
+    $(document).ready(function(){
+        $(".info-pulse").click(function(){
+            $(".info-panel").show(500);
+        });
+    });
+    </script>
+</div>
+{% endblock %}

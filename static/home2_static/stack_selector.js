@@ -91,668 +91,668 @@ $(document).ready(function(){
         "stack_tumblr" : ["#fashboard-red", "#twata-red"],
     };
 
-    $(".hex-red").hide();
+    $(".hex-blue").hide();
 
     $(".hex-dexter").hover(
         function(){
-            $(project_connections["hex_dexter"].join(", ")).css({"color": "#C00000"});
-            $("#dexter-red").show();
-            $("#dexter-blue").hide();
+            $(project_connections["hex_dexter"].join(", ")).css({"color": "#00B0F0"});
+            $("#dexter-blue").show();
+            $("#dexter-red").hide();
         },
         function(){
-            $(project_connections["hex_dexter"].join(", ")).css({"color": "#00B0F0"});
-            $("#dexter-red").hide();
-            $("#dexter-blue").show();
+            $(project_connections["hex_dexter"].join(", ")).css({"color": "#e7b0a2"});
+            $("#dexter-blue").hide();
+            $("#dexter-red").show();
         }
     );
 
     $(".hex-creatures").hover(
         function(){
-            $(project_connections["hex_creatures"].join(", ")).css({"color": "#C00000"});
-            $("#creatures-red").show();
-            $("#creatures-blue").hide();
+            $(project_connections["hex_creatures"].join(", ")).css({"color": "#00B0F0"});
+            $("#creatures-blue").show();
+            $("#creatures-red").hide();
         },
         function(){
-            $(project_connections["hex_creatures"].join(", ")).css({"color": "#00B0F0"});
-            $("#creatures-red").hide();
-            $("#creatures-blue").show();
+            $(project_connections["hex_creatures"].join(", ")).css({"color": "#e7b0a2"});
+            $("#creatures-blue").hide();
+            $("#creatures-red").show();
         }
     );
 
     $(".hex-gilmores").hover(
         function(){
-            $(project_connections["hex_gilmores"].join(", ")).css({"color": "#C00000"});
-            $("#gilmores-red").show();
-            $("#gilmores-blue").hide();
+            $(project_connections["hex_gilmores"].join(", ")).css({"color": "#00B0F0"});
+            $("#gilmores-blue").show();
+            $("#gilmores-red").hide();
         },
         function(){
-            $(project_connections["hex_gilmores"].join(", ")).css({"color": "#00B0F0"});
-            $("#gilmores-red").hide();
-            $("#gilmores-blue").show();
+            $(project_connections["hex_gilmores"].join(", ")).css({"color": "#e7b0a2"});
+            $("#gilmores-blue").hide();
+            $("#gilmores-red").show();
         }
     );
 
     $(".hex-aliens").hover(
         function(){
-            $(project_connections["hex_aliens"].join(", ")).css({"color": "#C00000"});
-            $("#aliens-red").show();
-            $("#aliens-blue").hide();
+            $(project_connections["hex_aliens"].join(", ")).css({"color": "#00B0F0"});
+            $("#aliens-blue").show();
+            $("#aliens-red").hide();
         },
         function(){
-            $(project_connections["hex_aliens"].join(", ")).css({"color": "#00B0F0"});
-            $("#aliens-red").hide();
-            $("#aliens-blue").show();
+            $(project_connections["hex_aliens"].join(", ")).css({"color": "#e7b0a2"});
+            $("#aliens-blue").hide();
+            $("#aliens-red").show();
         }
     );
 
     $(".hex-schools").hover(
         function(){
-            $(project_connections["hex_schools"].join(", ")).css({"color": "#C00000"});
-            $("#schools-red").show();
-            $("#schools-blue").hide();
+            $(project_connections["hex_schools"].join(", ")).css({"color": "#00B0F0"});
+            $("#schools-blue").show();
+            $("#schools-red").hide();
         },
         function(){
-            $(project_connections["hex_schools"].join(", ")).css({"color": "#00B0F0"});
-            $("#schools-red").hide();
-            $("#schools-blue").show();
+            $(project_connections["hex_schools"].join(", ")).css({"color": "#e7b0a2"});
+            $("#schools-blue").hide();
+            $("#schools-red").show();
         }
     );
 
     $(".hex-fashion").hover(
         function(){
-            $(project_connections["hex_fashion"].join(", ")).css({"color": "#C00000"});
-            $("#fashion-red").show();
-            $("#fashion-blue").hide();
+            $(project_connections["hex_fashion"].join(", ")).css({"color": "#00B0F0"});
+            $("#fashion-blue").show();
+            $("#fashion-red").hide();
         },
         function(){
-            $(project_connections["hex_fashion"].join(", ")).css({"color": "#00B0F0"});
-            $("#fashion-red").hide();
-            $("#fashion-blue").show();
+            $(project_connections["hex_fashion"].join(", ")).css({"color": "#e7b0a2"});
+            $("#fashion-blue").hide();
+            $("#fashion-red").show();
         }
     );
 
     $(".hex-scory1").hover(
         function(){
-            $(project_connections["hex_scory1"].join(", ")).css({"color": "#C00000"});
-            $("#scory1-red").show();
-            $("#scory1-blue").hide();
+            $(project_connections["hex_scory1"].join(", ")).css({"color": "#00B0F0"});
+            $("#scory1-blue").show();
+            $("#scory1-red").hide();
         },
         function(){
-            $(project_connections["hex_scory1"].join(", ")).css({"color": "#00B0F0"});
-            $("#scory1-red").hide();
-            $("#scory1-blue").show();
+            $(project_connections["hex_scory1"].join(", ")).css({"color": "#e7b0a2"});
+            $("#scory1-blue").hide();
+            $("#scory1-red").show();
         }
     );
 
     $(".hex-scory2").hover(
         function(){
-            $(project_connections["hex_scory2"].join(", ")).css({"color": "#C00000"});
-            $("#scory2-red").show();
-            $("#scory2-blue").hide();
+            $(project_connections["hex_scory2"].join(", ")).css({"color": "#00B0F0"});
+            $("#scory2-blue").show();
+            $("#scory2-red").hide();
         },
         function(){
-            $(project_connections["hex_scory2"].join(", ")).css({"color": "#00B0F0"});
-            $("#scory2-red").hide();
-            $("#scory2-blue").show();
+            $(project_connections["hex_scory2"].join(", ")).css({"color": "#e7b0a2"});
+            $("#scory2-blue").hide();
+            $("#scory2-red").show();
         }
     );
 
     $(".hex-foodies").hover(
         function(){
-            $(project_connections["hex_foodies"].join(", ")).css({"color": "#C00000"});
-            $("#foodies-red").show();
-            $("#foodies-blue").hide();
+            $(project_connections["hex_foodies"].join(", ")).css({"color": "#00B0F0"});
+            $("#foodies-blue").show();
+            $("#foodies-red").hide();
         },
         function(){
-            $(project_connections["hex_foodies"].join(", ")).css({"color": "#00B0F0"});
-            $("#foodies-red").hide();
-            $("#foodies-blue").show();
+            $(project_connections["hex_foodies"].join(", ")).css({"color": "#e7b0a2"});
+            $("#foodies-blue").hide();
+            $("#foodies-red").show();
         }
     );
 
     $(".hex-dollhouse").hover(
         function(){
-            $(project_connections["hex_dollhouse"].join(", ")).css({"color": "#C00000"});
-            $("#dollhouse-red").show();
-            $("#dollhouse-blue").hide();
+            $(project_connections["hex_dollhouse"].join(", ")).css({"color": "#00B0F0"});
+            $("#dollhouse-blue").show();
+            $("#dollhouse-red").hide();
         },
         function(){
-            $(project_connections["hex_dollhouse"].join(", ")).css({"color": "#00B0F0"});
-            $("#dollhouse-red").hide();
-            $("#dollhouse-blue").show();
+            $(project_connections["hex_dollhouse"].join(", ")).css({"color": "#e7b0a2"});
+            $("#dollhouse-blue").hide();
+            $("#dollhouse-red").show();
         }
     );
 
     $(".hex-bbuk").hover(
         function(){
-            $(project_connections["hex_bbuk"].join(", ")).css({"color": "#C00000"});
-            $("#bbuk-red").show();
-            $("#bbuk-blue").hide();
+            $(project_connections["hex_bbuk"].join(", ")).css({"color": "#00B0F0"});
+            $("#bbuk-blue").show();
+            $("#bbuk-red").hide();
         },
         function(){
-            $(project_connections["hex_bbuk"].join(", ")).css({"color": "#00B0F0"});
-            $("#bbuk-red").hide();
-            $("#bbuk-blue").show();
+            $(project_connections["hex_bbuk"].join(", ")).css({"color": "#e7b0a2"});
+            $("#bbuk-blue").hide();
+            $("#bbuk-red").show();
         }
     );
 
     $(".hex-mental-health").hover(
         function(){
-            $(project_connections["hex_mental-health"].join(", ")).css({"color": "#C00000"});
-            $("#mental-health-red").show();
-            $("#mental-health-blue").hide();
+            $(project_connections["hex_mental-health"].join(", ")).css({"color": "#00B0F0"});
+            $("#mental-health-blue").show();
+            $("#mental-health-red").hide();
         },
         function(){
-            $(project_connections["hex_mental-health"].join(", ")).css({"color": "#00B0F0"});
-            $("#mental-health-red").hide();
-            $("#mental-health-blue").show();
+            $(project_connections["hex_mental-health"].join(", ")).css({"color": "#e7b0a2"});
+            $("#mental-health-blue").hide();
+            $("#mental-health-red").show();
         }
     );
 
     $(".hex-lgbt").hover(
         function(){
-            $(project_connections["hex_lgbt"].join(", ")).css({"color": "#C00000"});
-            $("#lgbt-red").show();
-            $("#lgbt-blue").hide();
+            $(project_connections["hex_lgbt"].join(", ")).css({"color": "#00B0F0"});
+            $("#lgbt-blue").show();
+            $("#lgbt-red").hide();
         },
         function(){
-            $(project_connections["hex_lgbt"].join(", ")).css({"color": "#00B0F0"});
-            $("#lgbt-red").hide();
-            $("#lgbt-blue").show();
+            $(project_connections["hex_lgbt"].join(", ")).css({"color": "#e7b0a2"});
+            $("#lgbt-blue").hide();
+            $("#lgbt-red").show();
         }
     );
 
     $(".hex-sleuth").hover(
         function(){
-            $(project_connections["hex_sleuth"].join(", ")).css({"color": "#C00000"});
-            $("#sleuth-red").show();
-            $("#sleuth-blue").hide();
+            $(project_connections["hex_sleuth"].join(", ")).css({"color": "#00B0F0"});
+            $("#sleuth-blue").show();
+            $("#sleuth-red").hide();
         },
         function(){
-            $(project_connections["hex_sleuth"].join(", ")).css({"color": "#00B0F0"});
-            $("#sleuth-red").hide();
-            $("#sleuth-blue").show();
+            $(project_connections["hex_sleuth"].join(", ")).css({"color": "#e7b0a2"});
+            $("#sleuth-blue").hide();
+            $("#sleuth-red").show();
         }
     );
 
     $(".hex-spellbook").hover(
         function(){
-            $(project_connections["hex_spellbook"].join(", ")).css({"color": "#C00000"});
-            $("#spellbook-red").show();
-            $("#spellbook-blue").hide();
+            $(project_connections["hex_spellbook"].join(", ")).css({"color": "#00B0F0"});
+            $("#spellbook-blue").show();
+            $("#spellbook-red").hide();
         },
         function(){
-            $(project_connections["hex_spellbook"].join(", ")).css({"color": "#00B0F0"});
-            $("#spellbook-red").hide();
-            $("#spellbook-blue").show();
+            $(project_connections["hex_spellbook"].join(", ")).css({"color": "#e7b0a2"});
+            $("#spellbook-blue").hide();
+            $("#spellbook-red").show();
         }
     );
 
     $(".hex-lamjo").hover(
         function(){
-            $(project_connections["hex_lamjo"].join(", ")).css({"color": "#C00000"});
-            $("#lamjo-red").show();
-            $("#lamjo-blue").hide();
+            $(project_connections["hex_lamjo"].join(", ")).css({"color": "#00B0F0"});
+            $("#lamjo-blue").show();
+            $("#lamjo-red").hide();
         },
         function(){
-            $(project_connections["hex_lamjo"].join(", ")).css({"color": "#00B0F0"});
-            $("#lamjo-red").hide();
-            $("#lamjo-blue").show();
+            $(project_connections["hex_lamjo"].join(", ")).css({"color": "#e7b0a2"});
+            $("#lamjo-blue").hide();
+            $("#lamjo-red").show();
         }
     );
 
     $(".hex-lajohn").hover(
         function(){
-            $(project_connections["hex_lajohn"].join(", ")).css({"color": "#C00000"});
-            $("#lajohn-red").show();
-            $("#lajohn-blue").hide();
+            $(project_connections["hex_lajohn"].join(", ")).css({"color": "#00B0F0"});
+            $("#lajohn-blue").show();
+            $("#lajohn-red").hide();
         },
         function(){
-            $(project_connections["hex_lajohn"].join(", ")).css({"color": "#00B0F0"});
-            $("#lajohn-red").hide();
-            $("#lajohn-blue").show();
+            $(project_connections["hex_lajohn"].join(", ")).css({"color": "#e7b0a2"});
+            $("#lajohn-blue").hide();
+            $("#lajohn-red").show();
         }
     );
 
     $(".hex-twata").hover(
         function(){
-            $(project_connections["hex_twata"].join(", ")).css({"color": "#C00000"});
-            $("#twata-red").show();
-            $("#twata-blue").hide();
+            $(project_connections["hex_twata"].join(", ")).css({"color": "#00B0F0"});
+            $("#twata-blue").show();
+            $("#twata-red").hide();
         },
         function(){
-            $(project_connections["hex_twata"].join(", ")).css({"color": "#00B0F0"});
-            $("#twata-red").hide();
-            $("#twata-blue").show();
+            $(project_connections["hex_twata"].join(", ")).css({"color": "#e7b0a2"});
+            $("#twata-blue").hide();
+            $("#twata-red").show();
         }
     );
 
     $(".hex-fashboard").hover(
         function(){
-            $(project_connections["hex_fashboard"].join(", ")).css({"color": "#C00000"});
-            $("#fashboard-red").show();
-            $("#fashboard-blue").hide();
+            $(project_connections["hex_fashboard"].join(", ")).css({"color": "#00B0F0"});
+            $("#fashboard-blue").show();
+            $("#fashboard-red").hide();
         },
         function(){
-            $(project_connections["hex_fashboard"].join(", ")).css({"color": "#00B0F0"});
-            $("#fashboard-red").hide();
-            $("#fashboard-blue").show();
+            $(project_connections["hex_fashboard"].join(", ")).css({"color": "#e7b0a2"});
+            $("#fashboard-blue").hide();
+            $("#fashboard-red").show();
         }
     );
 
     $(".hex-clustr").hover(
         function(){
-            $(project_connections["hex_clustr"].join(", ")).css({"color": "#C00000"});
-            $("#clustr-red").show();
-            $("#clustr-blue").hide();
+            $(project_connections["hex_clustr"].join(", ")).css({"color": "#00B0F0"});
+            $("#clustr-blue").show();
+            $("#clustr-red").hide();
         },
         function(){
-            $(project_connections["hex_clustr"].join(", ")).css({"color": "#00B0F0"});
-            $("#clustr-red").hide();
-            $("#clustr-blue").show();
+            $(project_connections["hex_clustr"].join(", ")).css({"color": "#e7b0a2"});
+            $("#clustr-blue").hide();
+            $("#clustr-red").show();
         }
     );
 
     $("#stack-flask").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_flask"].join(", ")).show();
-            $(stack_connections_blue["stack_flask"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_flask"].join(", ")).show();
             $(stack_connections_red["stack_flask"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_flask"].join(", ")).show();
+            $(stack_connections_blue["stack_flask"].join(", ")).hide();
         }
     );
 
     $("#stack-html").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_html"].join(", ")).show();
-            $(stack_connections_blue["stack_html"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_html"].join(", ")).show();
             $(stack_connections_red["stack_html"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_html"].join(", ")).show();
+            $(stack_connections_blue["stack_html"].join(", ")).hide();
         }
     );
 
     $("#stack-css").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_css"].join(", ")).show();
-            $(stack_connections_blue["stack_css"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_css"].join(", ")).show();
             $(stack_connections_red["stack_css"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_css"].join(", ")).show();
+            $(stack_connections_blue["stack_css"].join(", ")).hide();
         }
     );
 
     $("#stack-jquery").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_jquery"].join(", ")).show();
-            $(stack_connections_blue["stack_jquery"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_jquery"].join(", ")).show();
             $(stack_connections_red["stack_jquery"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_jquery"].join(", ")).show();
+            $(stack_connections_blue["stack_jquery"].join(", ")).hide();
         }
     );
 
     $("#stack-django").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_django"].join(", ")).show();
-            $(stack_connections_blue["stack_django"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_django"].join(", ")).show();
             $(stack_connections_red["stack_django"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_django"].join(", ")).show();
+            $(stack_connections_blue["stack_django"].join(", ")).hide();
         }
     );
 
     $("#stack-powerpoint").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_powerpoint"].join(", ")).show();
-            $(stack_connections_blue["stack_powerpoint"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_powerpoint"].join(", ")).show();
             $(stack_connections_red["stack_powerpoint"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_powerpoint"].join(", ")).show();
+            $(stack_connections_blue["stack_powerpoint"].join(", ")).hide();
         }
     );
 
     $("#stack-tableau").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_tableau"].join(", ")).show();
-            $(stack_connections_blue["stack_tableau"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_tableau"].join(", ")).show();
             $(stack_connections_red["stack_tableau"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_tableau"].join(", ")).show();
+            $(stack_connections_blue["stack_tableau"].join(", ")).hide();
         }
     );
 
     $("#stack-bokeh").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_bokeh"].join(", ")).show();
-            $(stack_connections_blue["stack_bokeh"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_bokeh"].join(", ")).show();
             $(stack_connections_red["stack_bokeh"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_bokeh"].join(", ")).show();
+            $(stack_connections_blue["stack_bokeh"].join(", ")).hide();
         }
     );
 
     $("#stack-d3").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_d3"].join(", ")).show();
-            $(stack_connections_blue["stack_d3"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_d3"].join(", ")).show();
             $(stack_connections_red["stack_d3"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_d3"].join(", ")).show();
+            $(stack_connections_blue["stack_d3"].join(", ")).hide();
         }
     );
 
     $("#stack-hands").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_hands"].join(", ")).show();
-            $(stack_connections_blue["stack_hands"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_hands"].join(", ")).show();
             $(stack_connections_red["stack_hands"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_hands"].join(", ")).show();
+            $(stack_connections_blue["stack_hands"].join(", ")).hide();
         }
     );
 
     $("#stack-sentiment-analysis").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_sentiment_analysis"].join(", ")).show();
-            $(stack_connections_blue["stack_sentiment_analysis"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_sentiment_analysis"].join(", ")).show();
             $(stack_connections_red["stack_sentiment_analysis"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_sentiment_analysis"].join(", ")).show();
+            $(stack_connections_blue["stack_sentiment_analysis"].join(", ")).hide();
         }
     );
 
     $("#stack-naive-bayes").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_naive_bayes"].join(", ")).show();
-            $(stack_connections_blue["stack_naive_bayes"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_naive_bayes"].join(", ")).show();
             $(stack_connections_red["stack_naive_bayes"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_naive_bayes"].join(", ")).show();
+            $(stack_connections_blue["stack_naive_bayes"].join(", ")).hide();
         }
     );
 
     $("#stack-sklearn").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_sklearn"].join(", ")).show();
-            $(stack_connections_blue["stack_sklearn"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_sklearn"].join(", ")).show();
             $(stack_connections_red["stack_sklearn"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_sklearn"].join(", ")).show();
+            $(stack_connections_blue["stack_sklearn"].join(", ")).hide();
         }
     );
 
     $("#stack-named-entity-rec").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_ner"].join(", ")).show();
-            $(stack_connections_blue["stack_ner"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_ner"].join(", ")).show();
             $(stack_connections_red["stack_ner"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_ner"].join(", ")).show();
+            $(stack_connections_blue["stack_ner"].join(", ")).hide();
         }
     );
 
     $("#stack-knn").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_knn"].join(", ")).show();
-            $(stack_connections_blue["stack_knn"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_knn"].join(", ")).show();
             $(stack_connections_red["stack_knn"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_knn"].join(", ")).show();
+            $(stack_connections_blue["stack_knn"].join(", ")).hide();
         }
     );
 
     $("#stack-colour-quantization").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_colour_quantization"].join(", ")).show();
-            $(stack_connections_blue["stack_colour_quantization"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_colour_quantization"].join(", ")).show();
             $(stack_connections_red["stack_colour_quantization"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_colour_quantization"].join(", ")).show();
+            $(stack_connections_blue["stack_colour_quantization"].join(", ")).hide();
         }
     );
 
     $("#stack-k-means").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_kmeans"].join(", ")).show();
-            $(stack_connections_blue["stack_kmeans"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_kmeans"].join(", ")).show();
             $(stack_connections_red["stack_kmeans"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_kmeans"].join(", ")).show();
+            $(stack_connections_blue["stack_kmeans"].join(", ")).hide();
         }
     );
 
     $("#stack-svm").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_svm"].join(", ")).show();
-            $(stack_connections_blue["stack_svm"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_svm"].join(", ")).show();
             $(stack_connections_red["stack_svm"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_svm"].join(", ")).show();
+            $(stack_connections_blue["stack_svm"].join(", ")).hide();
         }
     );
 
     $("#stack-linear-regression").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_linear_regression"].join(", ")).show();
-            $(stack_connections_blue["stack_linear_regression"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_linear_regression"].join(", ")).show();
             $(stack_connections_red["stack_linear_regression"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_linear_regression"].join(", ")).show();
+            $(stack_connections_blue["stack_linear_regression"].join(", ")).hide();
         }
     );
 
     $("#stack-logistic-regression").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_logistic_regression"].join(", ")).show();
-            $(stack_connections_blue["stack_logistic_regression"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_logistic_regression"].join(", ")).show();
             $(stack_connections_red["stack_logistic_regression"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_logistic_regression"].join(", ")).show();
+            $(stack_connections_blue["stack_logistic_regression"].join(", ")).hide();
         }
     );
 
     $("#stack-random-forests").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_random_forests"].join(", ")).show();
-            $(stack_connections_blue["stack_random_forests"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_random_forests"].join(", ")).show();
             $(stack_connections_red["stack_random_forests"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_random_forests"].join(", ")).show();
+            $(stack_connections_blue["stack_random_forests"].join(", ")).hide();
         }
     );
 
     $("#stack-nltk").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_nltk"].join(", ")).show();
-            $(stack_connections_blue["stack_nltk"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_nltk"].join(", ")).show();
             $(stack_connections_red["stack_nltk"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_nltk"].join(", ")).show();
+            $(stack_connections_blue["stack_nltk"].join(", ")).hide();
         }
     );
 
     $("#stack-python").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_python"].join(", ")).show();
-            $(stack_connections_blue["stack_python"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_python"].join(", ")).show();
             $(stack_connections_red["stack_python"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_python"].join(", ")).show();
+            $(stack_connections_blue["stack_python"].join(", ")).hide();
         }
     );
 
     $("#stack-numpy").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_numpy"].join(", ")).show();
-            $(stack_connections_blue["stack_numpy"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_numpy"].join(", ")).show();
             $(stack_connections_red["stack_numpy"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_numpy"].join(", ")).show();
+            $(stack_connections_blue["stack_numpy"].join(", ")).hide();
         }
     );
 
     $("#stack-pandas").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_pandas"].join(", ")).show();
-            $(stack_connections_blue["stack_pandas"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_pandas"].join(", ")).show();
             $(stack_connections_red["stack_pandas"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_pandas"].join(", ")).show();
+            $(stack_connections_blue["stack_pandas"].join(", ")).hide();
         }
     );
 
     $("#stack-excel").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_excel"].join(", ")).show();
-            $(stack_connections_blue["stack_excel"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_excel"].join(", ")).show();
             $(stack_connections_red["stack_excel"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_excel"].join(", ")).show();
+            $(stack_connections_blue["stack_excel"].join(", ")).hide();
         }
     );
 
     $("#stack-sql").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_sql"].join(", ")).show();
-            $(stack_connections_blue["stack_sql"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_sql"].join(", ")).show();
             $(stack_connections_red["stack_sql"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_sql"].join(", ")).show();
+            $(stack_connections_blue["stack_sql"].join(", ")).hide();
         }
     );
 
     $("#stack-twitter").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_twitter"].join(", ")).show();
-            $(stack_connections_blue["stack_twitter"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_twitter"].join(", ")).show();
             $(stack_connections_red["stack_twitter"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_twitter"].join(", ")).show();
+            $(stack_connections_blue["stack_twitter"].join(", ")).hide();
         }
     );
 
     $("#stack-spotify").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_spotify"].join(", ")).show();
-            $(stack_connections_blue["stack_spotify"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_spotify"].join(", ")).show();
             $(stack_connections_red["stack_spotify"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_spotify"].join(", ")).show();
+            $(stack_connections_blue["stack_spotify"].join(", ")).hide();
         }
     );
 
     $("#stack-youtube").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_youtube"].join(", ")).show();
-            $(stack_connections_blue["stack_youtube"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_youtube"].join(", ")).show();
             $(stack_connections_red["stack_youtube"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_youtube"].join(", ")).show();
+            $(stack_connections_blue["stack_youtube"].join(", ")).hide();
         }
     );
 
     $("#stack-tumblr").hover(
         function(){
-            $(this).css({"color": "#C00000"});
-            $(stack_connections_red["stack_tumblr"].join(", ")).show();
-            $(stack_connections_blue["stack_tumblr"].join(", ")).hide();
-        },
-        function(){
             $(this).css({"color": "#00B0F0"});
             $(stack_connections_blue["stack_tumblr"].join(", ")).show();
             $(stack_connections_red["stack_tumblr"].join(", ")).hide();
+        },
+        function(){
+            $(this).css({"color": "#e7b0a2"});
+            $(stack_connections_red["stack_tumblr"].join(", ")).show();
+            $(stack_connections_blue["stack_tumblr"].join(", ")).hide();
         }
     );
 });

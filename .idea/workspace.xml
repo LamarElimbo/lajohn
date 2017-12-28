@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae840a46-6b6b-4c5e-8141-b4fd1e18ac2b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/home2_static/app.css" afterPath="$PROJECT_DIR$/static/home2_static/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/home2_static/stack_selector.js" afterPath="$PROJECT_DIR$/static/home2_static/stack_selector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +16,7 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twata/jinja2/twata/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1846">
+            <state relative-caret-position="1065">
               <caret line="71" column="162" lean-forward="false" selection-start-line="71" selection-start-column="162" selection-end-line="71" selection-end-column="162" />
               <folding />
             </state>
@@ -27,18 +26,28 @@
       <file leaf-file-name="stack_selector.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/home2_static/stack_selector.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="5820">
               <caret line="388" column="42" lean-forward="false" selection-start-line="388" selection-start-column="36" selection-end-line="388" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/home2_static/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="843" column="18" lean-forward="false" selection-start-line="843" selection-start-column="18" selection-end-line="843" selection-end-column="18" />
+            <state relative-caret-position="15">
+              <caret line="861" column="13" lean-forward="false" selection-start-line="861" selection-start-column="13" selection-end-line="861" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -148,40 +157,6 @@
               <item name="lajohn" type="b2602c69:ProjectViewProjectNode" />
               <item name="lajohn" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="lajohn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lajohn" type="462c0819:PsiDirectoryNode" />
-              <item name="lajohn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lajohn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lajohn" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lajohn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lajohn" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="home2_static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lajohn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lajohn" type="462c0819:PsiDirectoryNode" />
-              <item name="twata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lajohn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lajohn" type="462c0819:PsiDirectoryNode" />
-              <item name="twata" type="462c0819:PsiDirectoryNode" />
-              <item name="jinja2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lajohn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lajohn" type="462c0819:PsiDirectoryNode" />
-              <item name="twata" type="462c0819:PsiDirectoryNode" />
-              <item name="jinja2" type="462c0819:PsiDirectoryNode" />
-              <item name="twata" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -270,14 +245,14 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3009009" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.5315315" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.53513515" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.46846846" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.46486485" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -299,13 +274,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lajohn/jinja2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lajohn/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -513,7 +481,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/twata/jinja2/twata/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1846">
+        <state relative-caret-position="1065">
           <caret line="71" column="162" lean-forward="false" selection-start-line="71" selection-start-column="162" selection-end-line="71" selection-end-column="162" />
           <folding />
         </state>
@@ -521,7 +489,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/home2_static/stack_selector.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="5820">
           <caret line="388" column="42" lean-forward="false" selection-start-line="388" selection-start-column="36" selection-end-line="388" selection-end-column="42" />
           <folding />
         </state>
@@ -529,8 +497,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/home2_static/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="843" column="18" lean-forward="false" selection-start-line="843" selection-start-column="18" selection-end-line="843" selection-end-column="18" />
+        <state relative-caret-position="15">
+          <caret line="861" column="13" lean-forward="false" selection-start-line="861" selection-start-column="13" selection-end-line="861" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

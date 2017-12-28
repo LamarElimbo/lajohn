@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae840a46-6b6b-4c5e-8141-b4fd1e18ac2b" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/twata_dj/__init__.py" afterPath="$PROJECT_DIR$/lajohn/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/twata_dj/jinja2.py" afterPath="$PROJECT_DIR$/lajohn/jinja2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/twata_dj/settings.py" afterPath="$PROJECT_DIR$/lajohn/settings.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/twata_dj/urls.py" afterPath="$PROJECT_DIR$/lajohn/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/twata_dj/views.py" afterPath="$PROJECT_DIR$/lajohn/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/twata_dj/wsgi.py" afterPath="$PROJECT_DIR$/lajohn/wsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/home2_static/app_preserved.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/home2_static/stack_selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twata/jinja2/twata/home_preserved.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/home2_static/app.css" afterPath="$PROJECT_DIR$/static/home2_static/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twata/jinja2/twata/home.html" afterPath="$PROJECT_DIR$/twata/jinja2/twata/home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,93 +18,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twata/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="e#16#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twata/jinja2/twata/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3300">
-              <caret line="220" column="23" lean-forward="false" selection-start-line="220" selection-start-column="23" selection-end-line="220" selection-end-column="139" />
+            <state relative-caret-position="1065">
+              <caret line="71" column="162" lean-forward="false" selection-start-line="71" selection-start-column="162" selection-end-line="71" selection-end-column="162" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_skeleton2_template.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/twata/jinja2/twata/_skeleton2_template.html">
+      <file leaf-file-name="stack_selector.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/home2_static/stack_selector.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="10002">
+              <caret line="757" column="3" lean-forward="false" selection-start-line="757" selection-start-column="3" selection-end-line="757" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lajohn/settings.py">
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/home2_static/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="256">
+              <caret line="450" column="41" lean-forward="false" selection-start-line="450" selection-start-column="41" selection-end-line="450" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jinja2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lajohn/jinja2.py">
+      <file leaf-file-name="app_preserved.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/home2_static/app_preserved.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#66#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="3701">
+              <caret line="540" column="0" lean-forward="false" selection-start-line="540" selection-start-column="0" selection-end-line="540" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graph.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twata/jinja2/twata/graph.html">
+      <file leaf-file-name="home_preserved.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twata/jinja2/twata/home_preserved.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2415">
-              <caret line="161" column="15" lean-forward="false" selection-start-line="161" selection-start-column="15" selection-end-line="161" selection-end-column="15" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="e#9132#9139#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twata/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="108" lean-forward="false" selection-start-line="8" selection-start-column="108" selection-end-line="8" selection-end-column="108" />
-              <folding>
-                <element signature="e#17#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getGraphScript.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twata/getGraphScript.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="75" lean-forward="false" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,15 +114,19 @@
         <option value="$PROJECT_DIR$/twata/urls.py" />
         <option value="$PROJECT_DIR$/twata/views.py" />
         <option value="$PROJECT_DIR$/twata/jinja2/twata/graph.html" />
-        <option value="$PROJECT_DIR$/twata/jinja2/twata/home.html" />
         <option value="$PROJECT_DIR$/twata/jinja2/twata/_skeleton2_template.html" />
+        <option value="$PROJECT_DIR$/twata/jinja2/twata/home_preserved.html" />
+        <option value="$PROJECT_DIR$/static/home2_static/stack_selector.js" />
+        <option value="$PROJECT_DIR$/static/home2_static/app_preserved.css" />
+        <option value="$PROJECT_DIR$/twata/jinja2/twata/home.html" />
+        <option value="$PROJECT_DIR$/static/home2_static/app.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="330" />
     <option name="y" value="50" />
-    <option name="width" value="1109" />
+    <option name="width" value="1110" />
     <option name="height" value="776" />
   </component>
   <component name="ProjectView">
@@ -181,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,11 +156,41 @@
               <item name="lajohn" type="462c0819:PsiDirectoryNode" />
               <item name="lajohn" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lajohn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lajohn" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lajohn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lajohn" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="home2_static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lajohn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lajohn" type="462c0819:PsiDirectoryNode" />
+              <item name="twata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lajohn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lajohn" type="462c0819:PsiDirectoryNode" />
+              <item name="twata" type="462c0819:PsiDirectoryNode" />
+              <item name="jinja2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lajohn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lajohn" type="462c0819:PsiDirectoryNode" />
+              <item name="twata" type="462c0819:PsiDirectoryNode" />
+              <item name="jinja2" type="462c0819:PsiDirectoryNode" />
+              <item name="twata" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,16 +270,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="330" y="50" width="1109" height="776" extended-state="0" />
+    <frame x="330" y="50" width="1110" height="776" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30117223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3009009" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.5211903" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.52792794" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.47880974" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.47207206" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -311,53 +304,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/twata/jinja2/twata/graph.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2415">
-          <caret line="161" column="15" lean-forward="true" selection-start-line="161" selection-start-column="15" selection-end-line="161" selection-end-column="15" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#9132#9139#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twata/getGraphScript.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="75" lean-forward="false" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twata/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="108" lean-forward="false" selection-start-line="8" selection-start-column="108" selection-end-line="8" selection-end-column="108" />
-          <folding>
-            <element signature="e#17#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twata/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lajohn/jinja2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
-            <element signature="e#0#66#0" expanded="true" />
+            <element signature="e#0#66#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -375,8 +327,8 @@
         <state relative-caret-position="435">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#9132#9139#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="e#9132#9139#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -386,7 +338,7 @@
         <state relative-caret-position="60">
           <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="39" />
           <folding>
-            <element signature="e#17#52#0" expanded="true" />
+            <element signature="e#17#52#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -396,7 +348,7 @@
         <state relative-caret-position="75">
           <caret line="6" column="75" lean-forward="false" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -414,7 +366,7 @@
         <state relative-caret-position="90">
           <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
-            <element signature="e#16#48#0" expanded="true" />
+            <element signature="e#16#48#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -432,7 +384,7 @@
         <state relative-caret-position="120">
           <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding>
-            <element signature="e#17#52#0" expanded="true" />
+            <element signature="e#17#52#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -510,7 +462,7 @@
         <state relative-caret-position="135">
           <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
-            <element signature="e#0#66#0" expanded="true" />
+            <element signature="e#0#66#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -534,7 +486,7 @@
         <state relative-caret-position="75">
           <caret line="6" column="75" lean-forward="false" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -547,23 +499,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twata/jinja2/twata/graph.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2415">
-          <caret line="161" column="15" lean-forward="false" selection-start-line="161" selection-start-column="15" selection-end-line="161" selection-end-column="15" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#9132#9139#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/twata/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="0">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#16#48#0" expanded="true" />
+            <element signature="e#16#48#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -573,16 +514,8 @@
         <state relative-caret-position="75">
           <caret line="8" column="108" lean-forward="false" selection-start-line="8" selection-start-column="108" selection-end-line="8" selection-end-column="108" />
           <folding>
-            <element signature="e#17#52#0" expanded="true" />
+            <element signature="e#17#52#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twata/jinja2/twata/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3300">
-          <caret line="220" column="23" lean-forward="false" selection-start-line="220" selection-start-column="23" selection-end-line="220" selection-end-column="139" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,6 +523,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twata/jinja2/twata/graph.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="161" column="15" lean-forward="false" selection-start-line="161" selection-start-column="15" selection-end-line="161" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="e#9132#9139#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/home2_static/stack_selector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10002">
+          <caret line="757" column="3" lean-forward="false" selection-start-line="757" selection-start-column="3" selection-end-line="757" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twata/jinja2/twata/home_preserved.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twata/jinja2/twata/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="162" lean-forward="false" selection-start-line="71" selection-start-column="162" selection-end-line="71" selection-end-column="162" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/home2_static/app_preserved.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3701">
+          <caret line="540" column="0" lean-forward="false" selection-start-line="540" selection-start-column="0" selection-end-line="540" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/home2_static/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="450" column="41" lean-forward="false" selection-start-line="450" selection-start-column="41" selection-end-line="450" selection-end-column="41" />
           <folding />
         </state>
       </provider>

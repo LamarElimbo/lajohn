@@ -1,4 +1,4 @@
-# twata/views.py
+# lajohn/views.py
 from django.shortcuts import render
 from twata import getGraphScript
 import datetime
@@ -6,7 +6,7 @@ import os
 
 
 def home(request):
-    return render(request, 'twata/home.html', {'css_source': '../static/home2_static/app_v1.css', 'activeTab': 'home'})
+    return render(request, 'home/home.html', {'css_source': '../static/home2_static/app_v1.css', 'activeTab': 'home'})
 
 
 def graph(request):

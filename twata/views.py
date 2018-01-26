@@ -5,10 +5,6 @@ import datetime
 import os
 
 
-def home(request):
-    return render(request, 'home/home.html', {'css_source': '../static/home2_static/app_v1.css', 'activeTab': 'home'})
-
-
 def graph(request):
     print('current dir: ', os.getcwd())
 

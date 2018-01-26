@@ -20,5 +20,7 @@ from . import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^', include('home.urls')),
     url(r'^', include('twata.urls')),
+    url(r'^', include('spellbook.urls')),
 ]
